@@ -1,4 +1,11 @@
 package latihan4_isp.good;
 
-public class Readable {
+/**
+ * Capability: Membaca dokumen
+ */
+public interface Readable {
+    /**
+     * Read or open the document
+     */
+    void read();
 }

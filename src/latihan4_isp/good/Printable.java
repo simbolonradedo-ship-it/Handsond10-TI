@@ -1,4 +1,11 @@
 package latihan4_isp.good;
 
-public class Printable {
+/**
+ * Capability: Mencetak dokumen
+ */
+public interface Printable {
+    /**
+     * Print the document
+     */
+    void print();
 }
